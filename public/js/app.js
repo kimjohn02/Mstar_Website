@@ -98,17 +98,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ── Animated Counters ────────────────────────────────────────
     function animateCounter(element) {
-        const finalValue = parseInt(element.textContent);
+        const raw = element.textContent.trim();
+        const finalValue = parseInt(raw.replace(/\D/g, ''));
+        if (isNaN(finalValue)) return;
         const increment = finalValue / 50;
         let currentValue = 0;
+        const useComma = raw.includes(',');
 
         const counter = setInterval(function () {
             currentValue += increment;
             if (currentValue >= finalValue) {
-                element.textContent = finalValue.toLocaleString();
+                element.textContent = useComma ? finalValue.toLocaleString() : finalValue;
                 clearInterval(counter);
             } else {
-                element.textContent = Math.floor(currentValue).toLocaleString();
+                const val = Math.floor(currentValue);
+                element.textContent = useComma ? val.toLocaleString() : val;
             }
         }, 30);
     }
@@ -140,9 +144,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (isNaN(num)) return;
         let current = 0;
         const step = Math.max(1, Math.floor(num / 60));
+        const useComma = raw.includes(',');
         const timer = setInterval(function () {
             current = Math.min(current + step, num);
-            el.textContent = current.toLocaleString() + suffix;
+            const val = useComma ? current.toLocaleString() : current;
+            el.textContent = val + suffix;
             if (current >= num) clearInterval(timer);
         }, 25);
     }
