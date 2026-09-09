@@ -76,7 +76,7 @@
                             Our commitment to quality and customer satisfaction, fueled by our faith, fueled further growth. In 2012, with the success of our initial investment and continued support, we were finally able to acquire our first-ever tarpaulin printing machine. This marked a significant leap forward, allowing us to offer a wider range of printing services.
                         </p>
                         <p>
-                            From those humble beginnings, we strategically acquired additional printing machines, expanding our capabilities and service offerings. This dedication has propelled us to where we stand today: a thriving company with 22 skilled employees operating across 5 branches.
+                            From those humble beginnings, we strategically acquired additional printing machines, expanding our capabilities and service offerings. This dedication has propelled us to where we stand today: a thriving company with 24 skilled employees operating across 5 branches.
                         </p>
                         <p class="mb-0">
                             Morning Star's journey is a testament to our dedication, innovation, the power of believing in a vision, the unwavering belief that the Lord is our greatest provider, and the importance of community support. We continue to evolve, utilizing cutting-edge technology to deliver exceptional printing solutions for all your needs.
@@ -86,27 +86,27 @@
 
                 {{-- Stats Row --}}
                 <div class="story-stats row text-center g-3 mx-auto" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-6 col-md-3">
-                        <div class="stat-box">
+                    <div class="col-6 col-md-3 d-flex">
+                        <div class="stat-box h-100 w-100">
                             <div class="stat-number">2007</div>
                             <div class="stat-label">Year Founded</div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="stat-box">
-                            <div class="stat-number">22+</div>
+                    <div class="col-6 col-md-3 d-flex">
+                        <div class="stat-box h-100 w-100">
+                            <div class="stat-number">24+</div>
                             <div class="stat-label">Skilled Employees</div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="stat-box">
+                    <div class="col-6 col-md-3 d-flex">
+                        <div class="stat-box h-100 w-100">
                             <div class="stat-number">5</div>
                             <div class="stat-label">Branches</div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-3">
-                        <div class="stat-box">
-                            <div class="stat-number">18+</div>
+                    <div class="col-6 col-md-3 d-flex">
+                        <div class="stat-box h-100 w-100">
+                            <div class="stat-number">19+</div>
                             <div class="stat-label">Years of Service</div>
                         </div>
                     </div>
