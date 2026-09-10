@@ -5,7 +5,7 @@
   "description": "Morning Star Printing Press Co. Corporate Website",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "echo Assets already compiled in public/"
   },
   "devDependencies": {
     "axios": "^1.6.2",
